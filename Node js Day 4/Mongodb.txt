@@ -1,0 +1,19 @@
+In this we will learn about mongodb, In mongodba data is stored in the form of BSON format which stands
+for Binary JSON format. 
+
+IMPORTANT COMMANDS OF MONGODB
+
+To create database also to switch - use <database name>
+
+To create collection - db.createCollection("collection name"); Ex - db.createCollection("user"). here db is the database we are in.
+To delete collection - db.<collection name>.drop();  Ex- db.user.drop();
+
+To see the document/record in the collection/Table - db.<coll name>.find();
+To see the document/record in the collection/Table using filter - db.<coll name>.find({age:{$gt:21}}). here $ is atomic operator and gt 
+                                                                  means greater than lt means less than
+
+To insert a document in the collection- db.<coll name>.insertOne({id:1,username:"",age:23});
+
+To delete a document in the collection - db.<coll name>.deleteOne({id:2});
+
+To update a document in the collection - db.<coll name>.updateOne({username:""},{age:new_age, username:""});

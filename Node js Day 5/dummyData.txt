@@ -1,0 +1,20 @@
+{
+    "name":"Alice",
+    "age":28,
+    "work":"chef",
+    "mobile":"356565435",
+    "email":"jfjfof@gmail.com",
+    "adress":"123 main street new York",
+    "salary":34666
+}
+
+menu item
+
+{
+    "name":"kadhai chicken",
+    "price":50,
+    "taste":"sweet",
+    "is_drink":false,
+    "Ingredient":"chicken,garam masala, water",
+    "num_sale":2
+}
